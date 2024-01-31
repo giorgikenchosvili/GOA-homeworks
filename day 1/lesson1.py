@@ -1,97 +1,38 @@
-from turtle import *
+# name="giorgi"
 
-#we want to paint hause
+# surname="kenchoshvili"
 
-#step 1 draw a square
+# print(name)
 
-speed(30)
-shape("turtle")
-width(7)
-color("green")
-forward(200)
-left(90)
+# name="giorgi"
+# age=13
+# height=165.5
 
-forward(200)
-left(90)
+# knows_programming=True
+# is_ugly=False
 
-forward(200)
-left(90)
+# # print(name + " " + surname)
 
-forward(200)
-left(90)
+# # print(name + age)
 
-#end of square
+# # print(type(age))
+# # print(type(name))
+# # print(type(surname))
+# # print(type(height))
+# # print(type(knows_programming))
 
-#drawing door
+# print(name + " " + str(age))
 
-forward(70)
-color("yellow")
-begin_fill()
-left(90)
-forward(120)
+name="giorgi"
+surname="kenchoshvili"
 
-right(90)
-forward(60)
-right(90)
-forward(120)
-end_fill()
+age=13
+height=165.5
 
-#end draw door
+print(name + " " + surname)
+print(ag6e)
+print(height) # it is my height
 
-#drawing roof
 
-left(90)
-color("green")
-forward(70)
-left(90)
-forward(200)
 
-color("red")
-begin_fill()
-left(30)
 
-forward(180)
-left(115)
-forward(190)
-end_fill()
-
-#end draw roof
-
-#drawing windows
-
-color ("green")
-left(35)
-forward(150)
-left(90)
-color("black")
-begin_fill()
-forward(50)
-
-left(90)
-forward(50)
-left(90)
-forward(50)
-end_fill()
-
-color("green")
-left(90)
-forward(100)
-left(90)
-
-forward(200)
-left(90)
-forward(100)
-left(90)
-
-color("black")
-begin_fill()
-forward(50)
-left(90)
-
-forward(50)
-left(90)
-forward(50)
-end_fill()
-
-# ebd draw windows
-exitonclick()
