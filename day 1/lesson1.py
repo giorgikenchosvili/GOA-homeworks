@@ -30,7 +30,7 @@ age=13
 height=165.5
 
 print(name + " " + surname)
-print(ag6e)
+print(age)
 print(height) # it is my height
 
 
